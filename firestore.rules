@@ -1,0 +1,23 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /allFirstNames/{initial} {
+      allow read;
+    }
+    match /allLastNames/{initial} {
+      allow read;
+    }
+    match /femaleFirstNames/{initial} {
+      allow read;
+    }
+    match /femaleLastNames/{initial} {
+      allow read;
+    }
+    match /maleFirstNames/{initial} {
+      allow read;
+    }
+    match /maleLastNames/{initial} {
+      allow read;
+    }
+  }
+}

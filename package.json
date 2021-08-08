@@ -1,0 +1,27 @@
+{
+  "name": "star-wars-name-generator-data",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "author": "Tal Luigi",
+  "license": "MIT",
+  "main": "scripts/seed.js",
+  "scripts": {
+    "start": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "firebase": "^6.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
