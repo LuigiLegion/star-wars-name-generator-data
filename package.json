@@ -10,7 +10,7 @@
     "start": "node scripts/seed.js"
   },
   "dependencies": {
-    "firebase": "^6.2.0"
+    "firebase": "^8.10.0"
   },
   "browserslist": {
     "production": [
